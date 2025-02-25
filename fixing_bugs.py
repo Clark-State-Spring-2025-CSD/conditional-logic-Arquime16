@@ -8,14 +8,16 @@
 #"You entered a" if the user enters a
 #"You entered a b" if the user enters b
 #"Well it wasn't an a or b" if the user enters anything else
+#This is my file Done!
 
 
 selection = input("Enter a lowercase letter")
 
-if selection == "a":
-print("You entered a")
-elif selection = "b":
-print("You entered a b")
-else
-    print("Well it wasn't an a or b.")
-
+if selection != "a": 
+   print("You entered a")
+elif selection == "b": 
+   print("You entered a b")
+else:
+   print("Well it wasn't an a or b.")
+ 
+ 
